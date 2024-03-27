@@ -2,6 +2,8 @@
 
 Building models to classify whether a song came from my Spotify Wrapped 2023 - Top 100 playlist or my friend’s.
 
+# Data
+
 **Track Metadata**
 | column | description |
 | --- | --- |
@@ -38,4 +40,4 @@ Building models to classify whether a song came from my Spotify Wrapped 2023 - T
 | Playlist Owner | Who's playlist the song belongs to |
 
 
-**Link to Gather Your Own Spotify Dataset:** https://www.chosic.com/spotify-playlist-analyzer/?plid=37i9dQZF1Fa1IIVtEpGUcU
+[**Gather Your Own Spotify Dataset:**](https://www.chosic.com/spotify-playlist-analyzer/?plid=37i9dQZF1Fa1IIVtEpGUcU)
