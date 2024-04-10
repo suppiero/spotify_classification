@@ -2,9 +2,6 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/suppiero/spotify_classification_dash/main?urlpath=https%3A%2F%2Fgithub.com%2Fsuppiero%2Fspotify_classification_dash%2Fblob%2Fmain%2Fspotify_song_classification.ipynb)
 
-.. image:: https://mybinder.org/badge_logo.svg
- :target: https://mybinder.org/v2/gh/suppiero/spotify_classification_dash/main?labpath=https%3A%2F%2Fgithub.com%2Fsuppiero%2Fspotify_classification_dash%2Fblob%2Fmain%2Fspotify_song_classification.ipynb
-
 Building models to classify whether a song came from my Spotify Wrapped 2023 - Top 100 playlist or my friend’s.
 
 ## Data
