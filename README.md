@@ -5,7 +5,7 @@
 Building models to classify whether a song came from my Spotify Wrapped 2023 - Top 100 playlist or my friend’s.
 
 ## Result
-![Project Screenshot](Spotify_Dashboard_Recording.gif)
+![Project Screenshot](Spotify_Dashboard_Recording_30_fps.gif)
 
 ## Data
 
