@@ -2,14 +2,22 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/suppiero/spotify_classification_dash/main?urlpath=https%3A%2F%2Fgithub.com%2Fsuppiero%2Fspotify_classification_dash%2Fblob%2Fmain%2Fspotify_song_classification.ipynb)
 
+## Project Overview
+
 Crafting predictive models to determine whose playlist a song belongs to and summarizing results into an interactive dashboard. 
 
 In this project, my friend Nirvit and I shared our 2023 Spotify Wrapped playlists so we could visualize comparisons between our music tastes and then create a model to try and predict whose playlist a song belongs to. Finally, I have compiled the results of each model into an interactive dashboard using [Panel](https://panel.holoviz.org/).
+
+You can explore my methods and examine my code in a more user-friendly format over on my [blog post](https://suppiero.github.io/projects/spotify_classification_dashboard/spotify_song_classification.html).
 
 ## Result
 ![Project Screenshot](Spotify_Dashboard_Recording_30_fps.gif)
 
 ## Data
+
+The Spotify datasets utilized in this project, sourced from Chosic, provide comprehensive information on various song attributes.
+
+[**Gather Your Own Spotify Dataset**](https://www.chosic.com/spotify-playlist-analyzer/?plid=37i9dQZF1Fa1IIVtEpGUcU)
 
 **Track Metadata**
 | column | description |
@@ -46,5 +54,15 @@ In this project, my friend Nirvit and I shared our 2023 Spotify Wrapped playlist
 | Camelot | Musical key of a song for harmonic mixing |
 | Playlist Owner | Who's playlist the song belongs to |
 
+## Usage
 
-[**Gather Your Own Spotify Dataset**](https://www.chosic.com/spotify-playlist-analyzer/?plid=37i9dQZF1Fa1IIVtEpGUcU)
+To use the project, follow these steps:
+
+1. Ensure you have the required dependencies installed (to install the dependencies, please refer to the requirements.txt file).
+2. Make sure you have obtained the Spotify datasets (see the [Data](#data) section).
+3. Run the project script or notebook using Python.
+4. Explore the visualizations and interact with the points, buttons, and bar plots to analyze different aspects of the Spotify data and models.
+5. To serve the dashboard locally, use the command:
+```terminal
+panel serve spotify_song_classification.ipynb
+```
