@@ -1,8 +1,10 @@
-# Spotify Classification Dashboard and Models
+# Spotify Classification Dashboard and Model Analysis
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/suppiero/spotify_classification_dash/main?urlpath=https%3A%2F%2Fgithub.com%2Fsuppiero%2Fspotify_classification_dash%2Fblob%2Fmain%2Fspotify_song_classification.ipynb)
 
-Building models to classify whether a song came from my Spotify Wrapped 2023 - Top 100 playlist or my friend’s.
+Crafting predictive models to determine whose playlist a song belongs to and summarizing results into an interactive dashboard. 
+
+In this project, my friend Nirvit and I shared our 2023 Spotify Wrapped playlists so we could visualize comparisons between our music tastes and then create a model to try and predict whose playlist a song belongs to. Finally, I have compiled the results of each model into an interactive dashboard using [Panel](https://panel.holoviz.org/).
 
 ## Result
 ![Project Screenshot](Spotify_Dashboard_Recording_30_fps.gif)
